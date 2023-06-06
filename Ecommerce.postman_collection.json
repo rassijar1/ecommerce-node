@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "2cd7db89-fd05-45eb-a00d-22ec794ed170",
+		"name": "Ecommerce",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Productos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/mostrar-productos/Motorola V3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"mostrar-productos",
+						"Motorola V3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
